@@ -1,0 +1,13 @@
+#ignore cache
+.parcel-cache
+
+#ignore node_modules
+node_modules
+
+#ignore dist used on npm run start
+dist 
+
+#ignore docs folder
+#manually place the files on server
+#after running npm run build
+docs
