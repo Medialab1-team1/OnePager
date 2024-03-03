@@ -1,0 +1,101 @@
+:root{
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+
+  h1 {
+    font-size: 2.5rem;
+  } h2 {
+    font-size: 1.5rem;
+  } 
+  
+  p a { 
+    text-decoration: underline;
+    color: darkslateblue
+  }
+  p a:hover{
+    color:blueviolet;
+  }
+   .divider{
+    background-color: whitesmoke;
+    margin:0;
+    padding-bottom:10vh;
+  }
+  
+  header {
+    filter:drop-shadow(0 1rem 2rem gray) ;
+    background-color: #4e7a88;
+    min-height:20rem;
+    min-width:100vw;
+    max-width:100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 10vh;
+  }
+  
+  
+  header .animation-wrapper{
+    animation: "FadeIn" ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
+  }
+  body{
+    margin: 0;
+  }
+  
+  article{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left:10vw;
+    padding-right:10vw;
+    padding-bottom:10vh;
+    background-color: whitesmoke;
+    color: black
+  }
+  article:nth-child(3){
+    padding-top:10vh;
+  }
+  
+  .intro  {
+    background-color: white;
+    border-bottom:solid 1px lightgray ;
+    
+  }
+ 
+  .image-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap:2vw;
+  }
+  
+  img{
+    aspect-ratio: auto;
+    max-height: 250px;
+    object-fit: cover;
+    border: white solid 3px;
+  }
+
+  @media only screen and (max-width: 1108px) {
+    .image-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap:5vh;
+      }
+  }
+
+  @keyframes FadeIn {
+    0%{
+      transform: translateX(-5vw);
+      opacity: 0;
+    }
+    100%{
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
