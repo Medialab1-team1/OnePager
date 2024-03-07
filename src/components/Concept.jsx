@@ -4,7 +4,7 @@ import ProsAndCons from "./ProsAndCons";
 import Images from "./Images";
 import sluggify from "../utils/sluggify";
 
-export default function Concept({ content = {} }) {
+export default function Concept({ content }) {
   return (
     <section
       className={`card concept ${content.chosen && "chosen"}`}

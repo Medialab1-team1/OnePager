@@ -2,8 +2,14 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer>
-      <h6>FOOTER</h6>
+    <footer className="footer">
+      <div className="footerWrapper">
+        <div className="year">2023-2024</div>
+        <div className="study">CMGT</div>
+        <div className="course">Medialab 1</div>
+        <div className="team">Team 1</div>
+        <div className="client">Kenniscentrum Zorginnovatie</div>
+      </div>
     </footer>
   );
 }

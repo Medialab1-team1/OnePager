@@ -1,4 +1,5 @@
 import React from "react";
+import sluggify from "./utils/sluggify";
 
 import Hero from "./components/Hero";
 import Navigation from "./components/Navigation";
@@ -15,13 +16,24 @@ import "./index.css";
 
 export function App() {
   const concepten = [concept1, concept2, concept3];
+
+  // build the navigation array of objects
+  const navigation = [
+    { name: "Home", url: "/", children: [] },
+    { name: "Over ons", url: `/#${sluggify(about.title)}`, children: [] },
+    { name: "Concepten", url: "/#concepten", children: concepten },
+  ];
+
   return (
     <>
       <Hero />
-      <Navigation />
+      <Navigation navigation={navigation} />
       <main className="container">
-        {about && <About />}
-        {concepten && concepten.map((concept) => <Concept content={concept} />)}
+        {about && <About content={about} />}
+        <section id="concepten" className="conceptenWrapper">
+          {concepten &&
+            concepten.map((concept) => <Concept content={concept} />)}
+        </section>
       </main>
       <Footer />
     </>

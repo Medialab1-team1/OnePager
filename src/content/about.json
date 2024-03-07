@@ -1,7 +1,6 @@
 {
-  "title": "About Us",
+  "title": "Wie zijn wij",
   "body": {
-    "__html": "<p>beschrijving team</p>"
-  },
-  "images": ["img/<imagename>.<ext>"]
+    "__html": "<p>Medialab 1 team 1 bestaat uit 5 studenten die opleiding CMGT volgen op de Hogeschool Rotterdam. De leden van ons team zijn Kevin, Sasha, Pim, Wessel en Daan. Wij zijn gevraagd om data te visualiseren voor diagnostiek gebruik door fysiologen.</p><p>Het idee achter dit project is dat hoe de diagnostiek gedaan wordt met te weinig informatie is, omdat er niet genoeg tijd is voor langdurige observatie. <a href='https://www.hogeschoolrotterdam.nl/onderzoek/kenniscentra/zorginnovatie/Over-het-kenniscentrum/'>Kenniscentrum Zorginnovatie</a> van de Hoge School Rotterdam is hiervoor een sensor aan het ontwerpen die de houding van mensen voor een langere periode kan observeren. Het doel van ons Medialab team is duidelijk maken van de data uit de sensoren.</p>"
+  }
 }
