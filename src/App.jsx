@@ -1,31 +1,17 @@
-import {lazy, Suspense} from "react";
-import {BrowserRouter, Route, Routes} from "react-router-dom";
-
-
-import Layout from "./components/Layout";
+import React from "react";
 
 import "./index.css";
+import Concept from "./components/Concept";
+import concept1 from "./content/concept1.json";
+import concepttemp from "./content/conceptTEMPLATE.json";
 
 export function App() {
-    const Error = lazy(() => import('./components/Error'))
-
-    return (
-        <BrowserRouter>
-            <Suspense fallback={
-                <>
-                    <Layout/>
-                    <div className="Loading">
-                        <div className="titles"><h1>Loading...</h1></div>
-                    </div>
-                </>
-            }>                
-                    <Routes>
-                        <Route path="/" element={<Layout/>}>
-                            {/*path for 404 page not found errors*/}
-                            <Route path="*" element={<Error/>}/>
-                        </Route>
-                    </Routes>
-            </Suspense>
-        </BrowserRouter>
-    );
+  const concepten = [concept1, concepttemp];
+  return (
+    <>
+      {/* <Navigation /> */}
+      {/* <Hero/> */}
+      {concepten && concepten.map((concept) => <Concept content={concept} />)}
+    </>
+  );
 }

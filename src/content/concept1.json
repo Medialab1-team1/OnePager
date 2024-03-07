@@ -1,0 +1,22 @@
+{
+  "title": "Lokaal Dashboard",
+  "chosen": true,
+  "body": {
+    "__html": "<p>Dashboard met enkel de data van de huidige sensormetingen. Deze data visualiseren in grafieken, tabellen, etc Dit kan de fysio helpen om sneller de benodigde data te verzamelen voor het uitvoeren van de beweginsganalyse. Door markers toe te voegen voor belangrijke momenten, zoals bijvoorbeeld medicijn inname of eetmomenten, én de momenten te highlighten waar de meeste beweging wordt geconstateerd. Helpen we de fysio de meest belangrijke momenten efficient terug te vinden.</p>"
+  },
+  "functionalities": [
+    "Weergave van actuele sensormetingen in grafieken, tabellen en andere visuele formaten.",
+    "Mogelijkheid om markers toe te voegen voor belangrijke momenten (medicatie, eten, etc.).",
+    "Specifieke tijden highlighten.",
+    "Filteren en analyseren van data op basis van specifieke criteria."
+  ],
+  "prosandcons": {
+    "pros": ["pro1", "pr02"],
+    "cons": ["con1", "con2"]
+  },
+  "images": [
+    "img/Dashboard-1.png",
+    "img/Dashboard-2.png",
+    "img/Dashboard-3.png"
+  ]
+}
