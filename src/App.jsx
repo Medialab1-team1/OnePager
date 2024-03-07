@@ -6,13 +6,15 @@ import About from "./components/About";
 import Concept from "./components/Concept";
 import Footer from "./components/Footer";
 
+import about from "./content/about.json";
+import concept1 from "./content/concept1.json";
+import concept2 from "./content/concept2.json";
+import concept3 from "./content/concept3.json";
+
 import "./index.css";
 
-import concept1 from "./content/concept1.json";
-import about from "./content/about.json";
-
 export function App() {
-  const concepten = [concept1];
+  const concepten = [concept1, concept2, concept3];
   return (
     <>
       <Hero />

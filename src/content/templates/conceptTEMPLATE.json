@@ -1,6 +1,7 @@
 {
   "title": "naam concept",
   "chosen": false,
+  "prototype": "link-to-prototype",
   "body": {
     "__html": "<p>beschrijving concept</p>"
   },
