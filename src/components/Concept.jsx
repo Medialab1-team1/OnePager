@@ -1,11 +1,12 @@
 import React from "react";
 import Functionalities from "./Functionalities";
 import ProsAndCons from "./ProsAndCons";
-import ConceptImages from "./ConceptImages";
+import Images from "./Images";
+import sluggify from "../utils/sluggify";
 
 export default function Concept({ content = {} }) {
   return (
-    <div className="card concept" id={content.title.replace(" ", "-")}>
+    <section className="card concept" id={sluggify(content.title)}>
       {content.title && <h2 className="concept title">{content.title}</h2>}
       {content.body && (
         <div dangerouslySetInnerHTML={content.body} className="concept body" />
@@ -14,7 +15,7 @@ export default function Concept({ content = {} }) {
         <Functionalities content={content.functionalities} />
       )}
       {content.prosandcons && <ProsAndCons content={content.prosandcons} />}
-      {content.images && <ConceptImages content={content.images} />}
-    </div>
+      {content.images && <Images content={content.images} />}
+    </section>
   );
 }

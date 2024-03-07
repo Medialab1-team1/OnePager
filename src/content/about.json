@@ -1,0 +1,7 @@
+{
+  "title": "About Us",
+  "body": {
+    "__html": "<p>beschrijving team</p>"
+  },
+  "images": ["img/<imagename>.<ext>"]
+}
