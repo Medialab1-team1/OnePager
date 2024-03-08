@@ -2,8 +2,10 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <header>
-      <h1>HERO</h1>
+    <header className="hero">
+      <div className="hero container">
+        <h1>HERO</h1>
+      </div>
     </header>
   );
 }

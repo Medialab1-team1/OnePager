@@ -6,7 +6,7 @@ import sluggify from "../utils/sluggify";
 
 export default function Concept({ content }) {
   return (
-    <section
+    <div
       className={`card concept ${content.chosen && "chosen"}`}
       id={sluggify(content.title)}
     >
@@ -22,6 +22,6 @@ export default function Concept({ content }) {
         <a href={content.prototype}>Ga naar het prototype</a>
       )}
       {content.images && <Images content={content.images} />}
-    </section>
+    </div>
   );
 }

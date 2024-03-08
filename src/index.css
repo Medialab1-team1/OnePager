@@ -2,6 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    box-sizing: border-box;
+    /* colors */
+    --white: #fff;
+    --black: #000;
+
+    --dark-blue: #0000ff;
+    --light-blue: #6dd1ff;
+
+    --chosen-accent: #ffc832;
+
+    --pros-bg:#33ff0042;
+    --cons-bg:#ff1e0042;
+
+    --box-shadow: #00000052;
+}
 
 body {
+    overflow-x:hidden;
+    background-color: var(--white);
+
+}
+
+a {
+    color: var(--dark-blue);
+    text-decoration: underline solid;
+}
+
+section {
+    margin-block: 1rem;
+}
+
+.container {
+    max-width: 800px;
+    width: 80%;
+    margin-inline: auto;
+}
+
+.conceptenWrapper {
+    display:flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+div .card { 
+    border-radius: 25px;
+    box-shadow: var(--box-shadow) 2px 2px 10px;
+    padding: 2rem;
 }
