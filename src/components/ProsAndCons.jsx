@@ -7,7 +7,7 @@ export default function ProsAndCons(prosandcons = {}) {
 
   return (
     <div className="prosAndCons">
-      <h1>PROS</h1>
+      <h3>PROS</h3>
       {pros && (
         <div className="pros">
           <ul>
@@ -17,7 +17,7 @@ export default function ProsAndCons(prosandcons = {}) {
           </ul>
         </div>
       )}
-      <h1>CONS</h1>
+      <h3>CONS</h3>
       {cons && (
         <div className="cons">
           <ul>
