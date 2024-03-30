@@ -5,7 +5,7 @@ export default function Hero() {
     <header className="hero">
       <div className="hero background" />
       <div className="hero container">
-        <h1>HERO</h1>
+        <h1>MotionView</h1>
       </div>
     </header>
   );
