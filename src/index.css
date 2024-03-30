@@ -72,7 +72,7 @@ header {
     text-align: center;
     color:var(--white);
     background-color: var(--sky-blue);
-    height: 300px;
+    height: 150px;
     position: relative;
 }
 
@@ -92,7 +92,7 @@ header {
 }
 
 .hero.container h1 {
-    padding: 100px;
+    padding: 50px;
     margin-block: auto;
 }
 
@@ -127,7 +127,7 @@ nav{
 }
 
 .container {
-    max-width: 800px;
+    max-width: 60rem;
     width: 80%;
     margin-inline: auto;
 }

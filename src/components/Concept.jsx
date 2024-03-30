@@ -24,14 +24,21 @@ export default function Concept({ content }) {
       {content.body && (
         <div dangerouslySetInnerHTML={content.body} className="concept body" />
       )}
-      {content.functionalities && (
-        <Functionalities content={content.functionalities} />
-      )}
-      {content.prosandcons && <ProsAndCons content={content.prosandcons} />}
+      <div className="grid grid-cols-2 gap-4">
+        <div className="col-span-1">
+          {content.functionalities && (
+            <Functionalities content={content.functionalities} />
+          )}
+          {content.prosandcons && <ProsAndCons content={content.prosandcons} />}
+        </div>
+        <div className="col-span-1">
+          {content.images && <Images content={content.images} />}
+        </div>
+      </div>
+
       {content.prototype && (
         <a href={content.prototype}>Ga naar het prototype</a>
       )}
-      {content.images && <Images content={content.images} />}
     </div>
   );
 }
