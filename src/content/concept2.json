@@ -16,8 +16,13 @@
     "Tijdlijn om de positie van het been in de tijd te bekijken."
   ],
   "prosandcons": {
-    "pros": ["voordeel concept 2"],
-    "cons": ["nadeel concept 2"]
+    "pros": ["Duidelijke visualisatie van de loophoek en looppatroon.", 
+    "Helpt fysiotherapeuten bij het beoordelen van de loophouding.", 
+    "Interactieve 3D-omgeving voor diepgaand onderzoek.", 
+    "Bevat tijdlijn voor analyse van looppatroon in de tijd."],
+    "cons": ["Veel werk", 
+    "Moeilijk te developen.", 
+    "Complex in gebruik."]
   },
   "images": ["img/3D-model-1.png", "/img/3D-model-2.png", "/img/3D-model-3.png"]
 }

@@ -12,8 +12,12 @@
     "Filteren en analyseren van data op basis van specifieke criteria."
   ],
   "prosandcons": {
-    "pros": ["pro1", "pr02"],
-    "cons": ["con1", "con2"]
+    "pros": ["Snelle en eenvoudige toegang tot actuele data.", 
+    "Duidelijke visualisatie van data voor analyse.", 
+    "Helpt fysiotherapeuten bij het efficiënt verzamelen van relevante data.", 
+    "Markeerfunctie voor belangrijke contextuele informatie."],
+    "cons": ["Kan data niet opslaan.", 
+    "Geen analyse van historische data of trends."]
   },
   "images": [
     "img/Dashboard-1.png",
