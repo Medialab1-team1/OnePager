@@ -1,0 +1,14 @@
+{
+  "title": "naam concept",
+  "chosen": false,
+  "prototype": "link-to-prototype",
+  "body": {
+    "__html": "<p>beschrijving concept</p>"
+  },
+  "functionalities": ["functionaliteit concept", "kan meerdere values hebben"],
+  "prosandcons": {
+    "pros": ["voordeel concept", "kan meerdere values hebben"],
+    "cons": ["nadeel concept", "kan meerdere values hebben"]
+  },
+  "images": ["img/<imagename>.<ext>", "img/<imagename>.<ext>"]
+}

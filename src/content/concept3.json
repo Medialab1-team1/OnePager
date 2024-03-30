@@ -1,0 +1,29 @@
+{
+  "title": "Dashboard 2.0 (Dossier)",
+  "chosen": false,
+  "prototype": "https://www.figma.com/proto/pHrl5etJmJmwXlG0HQAIr5/Concept-3-%7C-Dashboard-dossier?type=design&node-id=4-2&t=nhZlEV4t441PXDpy-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=4%3A2",
+  "body": {
+    "__html": "<p>Een klanten dossier waarin de data van de sensoren wordt opgeslagen en een tijdlijn kan vormen voor de patient. Hierin wordt week om week de data van de sensor opgeslagen zodat je deze kan vergelijken met vorige weken zodat je kan zien of er verbetering in zit. De data wordt gevisualiseerd doormiddel van grafieken.</p>"
+  },
+  "functionalities": [
+    "Opslag van sensordata in een digitaal patiëntendossier.",
+    "Visualisatie van data in grafieken over een langere periode.",
+    "Vergelijking van data van verschillende periodes.",
+    "Trendanalyse van data voor het monitoren van voortgang."
+  ],
+  "prosandcons": {
+    "pros": [
+      "Kan voorspellingen doen met alle data.",
+      "Langetermijnopslag van sensordata voor referentie.",
+      "Mogelijkheid om trends en patronen in de data te analyseren.",
+      "Beoordeling van de voortgang van de patiënt in de tijd.",
+      "Ondersteuning bij het maken van gepersonaliseerde behandelplannen."
+    ],
+    "cons": [
+      "Complexer dan een dashboard met actuele data.",
+      "Vereist langere datatermijn voor bruikbare analyses.",
+      "Mogelijk minder geschikt voor snelle observatie van actuele waarden."
+    ]
+  },
+  "images": ["img/Dashboard2.png"]
+}
