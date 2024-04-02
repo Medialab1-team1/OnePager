@@ -21,7 +21,6 @@ export function App() {
   const navigation = [
     { name: "Home", url: "/", children: [] },
     { name: "Over ons", url: `/#${sluggify(about.title)}`, children: [] },
-    { name: "Concepten", url: "/#concepten", children: concepten },
   ];
 
   return (
