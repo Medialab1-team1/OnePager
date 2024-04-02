@@ -3,21 +3,25 @@
   "chosen": true,
   "prototype": "https://www.figma.com/proto/oQDRxSmdnfu7ffgI8FbaZQ/Concept-1-%7C-Dashboard?type=design&node-id=2-2&t=Vun7njLBP6uCtskU-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=2%3A2",
   "body": {
-    "__html": "<p>Dashboard met enkel de data van de huidige sensormetingen. Deze data visualiseren in grafieken, tabellen, etc Dit kan de fysio helpen om sneller de benodigde data te verzamelen voor het uitvoeren van de beweginsganalyse. Door markers toe te voegen voor belangrijke momenten, zoals bijvoorbeeld medicijn inname of eetmomenten, én de momenten te highlighten waar de meeste beweging wordt geconstateerd. Helpen we de fysio de meest belangrijke momenten efficient terug te vinden.</p>"
+    "__html": "<p>Een Dashboard met enkel de data van de huidige sensormetingen. Deze data wordt gevisualiseerd in grafieken, tabellen, etc. Dit kan de fysio helpen om sneller de benodigde data te verzamelen voor het uitvoeren van de bewegingsanalyse. Door markers toe te voegen voor belangrijke momenten, zoals bijvoorbeeld medicijn inname of eetmomenten, én de momenten te highlighten waar de meeste beweging wordt geconstateerd. Helpen we de fysio de meest belangrijke momenten efficiënt terug te vinden.</p>"
   },
   "functionalities": [
     "Weergave van actuele sensormetingen in grafieken, tabellen en andere visuele formaten.",
     "Mogelijkheid om markers toe te voegen voor belangrijke momenten (medicatie, eten, etc.).",
-    "Specifieke tijden highlighten.",
-    "Filteren en analyseren van data op basis van specifieke criteria."
+    "Specifieke selecteerbare tijden.",
+    "De mogelijkheid om te filteren en analyseren op basis van specifieke criteria."
   ],
   "prosandcons": {
-    "pros": ["Snelle en eenvoudige toegang tot actuele data.", 
-    "Duidelijke visualisatie van data voor analyse.", 
-    "Helpt fysiotherapeuten bij het efficiënt verzamelen van relevante data.", 
-    "Markeerfunctie voor belangrijke contextuele informatie."],
-    "cons": ["Kan data niet opslaan.", 
-    "Geen analyse van historische data of trends."]
+    "pros": [
+      "Door de simpele omvang van het dashboard krijg je snel en eenvoudige toegang tot actuele data.",
+      "De visualisatie is snel en duidelijk gereed voor analyze.",
+      "Het helpt fysiotherapeuten bij het efficiënt verzamelen van relevante data.",
+      "Markeerfunctie voor belangrijke contextuele informatie."
+    ],
+    "cons": [
+      "Om de privacy van de patiënt te beschermen wordt de data niet opgeslagen.",
+      "Aangezien alleen de huidige data wordt getoont is het niet mogelijk om historische analyses uit te voeren."
+    ]
   },
   "images": [
     "img/Dashboard-1.png",

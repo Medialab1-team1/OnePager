@@ -3,26 +3,35 @@
   "chosen": false,
   "prototype": "https://www.figma.com/proto/Rb0cmExWZ4dxSZtE4jxl1a/Concept-2?type=design&node-id=1-2&t=6amHhfH4TJZJR40H-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2",
   "body": {
-    "__html": "<p>Interactief 3D geanimeerd 3D model van een been/lichaam waarin de loophoek data duidelijk gevisualiseerd word. De loophoek word veranderd naar mate van de loophoek data van de sensor. De graden van de loophoek word ook weergeven. Dit helpt de Fysio door een zeer duidelijk beeld te krijgen van hoe de patient zijn loophoek eruit ziet/ hoe hij loopt.</p>"
+    "__html": "<p> Een interactief geanimeerd 3D model van een been/lichaam waarin de loophoek van de patiënt duidelijk gevisualiseerd word. De loophoek word veranderd aan de hand van de data van de sensor. De graden van de loophoek word ook weergeven. Dit helpt de Fysio door een zeer duidelijk beeld te krijgen van hoe de patiënt loopt.</p>"
   },
   "functionalities": [
-    "Interactief 3D-geanimeerd model van been/lichaam.",
-    "Weergave van graden van de loophoek.",
+    "Een interactief 3D-geanimeerd model van een been/lichaam.",
+    "Een weergave van de graden van de loophoek.",
     "Visualisatie van loophoekdata in het 3D-model.",
-    "Uploaden van sensor data voor visualisatie.",
-    "Highlighten van been voor interactie en vergroting.",
-    "Data visualisatie toggle knop.",
-    "3D-viewer voor verschillende hoeken.",
-    "Tijdlijn om de positie van het been in de tijd te bekijken."
+    "Makkelijk uploaden van sensor data voor visualisatie.",
+    "Highlights van een been voor interactie en vergroting.",
+    "Een data visualisatie toggle knop.",
+    "Een 3D-viewer voor verschillende hoeken.",
+    "Een tijdlijn om de positie van het been in de tijd te bekijken."
   ],
   "prosandcons": {
-    "pros": ["Duidelijke visualisatie van de loophoek en looppatroon.", 
-    "Helpt fysiotherapeuten bij het beoordelen van de loophouding.", 
-    "Interactieve 3D-omgeving voor diepgaand onderzoek.", 
-    "Bevat tijdlijn voor analyse van looppatroon in de tijd."],
-    "cons": ["Veel werk", 
-    "Moeilijk te developen.", 
-    "Complex in gebruik."]
+    "pros": [
+      "Duidelijke visualisatie van de loophoek en het looppatroon.",
+      "Het kan fysiotherapeuten helpen bij het beoordelen van de loophouding.",
+      "Een interactieve 3D-omgeving voor diepgaand onderzoek.",
+      "Het bevat een tijdlijn voor analyse van looppatroon in de tijd."
+    ],
+    "cons": [
+      "Het analyseren van substantiële data is veel werk",
+      "Het zal complexer zijn om dit concept volledig te developen.",
+      "Gebruik zal ingewikkelder en langer zijn in vergelijking met andere concepten."
+    ]
   },
-  "images": ["img/3D-model-1.png", "img/3D-model-2.png", "img/3D-model-3.png"]
+  "images": [
+    "img/3D-model-1.png",
+    "img/3D-model-2.png",
+    "img/3D-model-3.png"
+  ]
 }
+
