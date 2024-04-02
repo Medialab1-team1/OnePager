@@ -4,7 +4,7 @@ import sluggify from "../utils/sluggify";
 
 export default function Navigation({ navigation }) {
   return (
-    <nav className="navigation">
+    <nav className="navigation z-10">
       <div className="navigation navigationWrapper container">
         {navigation && navigation.map((navobj) => <NavItem content={navobj} />)}
       </div>

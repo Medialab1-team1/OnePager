@@ -1,11 +1,22 @@
 import React from "react";
 import Functionalities from "./Functionalities";
 import ProsAndCons from "./ProsAndCons";
-import Images from "./Images";
+
 import sluggify from "../utils/sluggify";
 import svg from "bundle-text:../../static/img/star.svg";
+import ImageGallery from "react-image-gallery";
+import { useEffect } from "react";
+import "../utils/image-gallery.css";
 
 export default function Concept({ content }) {
+  useEffect(() => {
+    carouselFiller();
+  }, []);
+
+  const imgArray = [];
+  function carouselFiller() {
+    content.images.map((url) => imgArray.push({ original: `${url}` }));
+  }
   return (
     <div
       className={`card concept ${content.chosen && "chosen"}`}
@@ -24,6 +35,7 @@ export default function Concept({ content }) {
       {content.body && (
         <div dangerouslySetInnerHTML={content.body} className="concept body" />
       )}
+
       <div className="grid grid-cols-2 gap-4">
         <div className="col-span-1">
           {content.functionalities && (
@@ -31,8 +43,8 @@ export default function Concept({ content }) {
           )}
           {content.prosandcons && <ProsAndCons content={content.prosandcons} />}
         </div>
-        <div className="col-span-1">
-          {content.images && <Images content={content.images} />}
+        <div className="mt-10">
+          <ImageGallery items={imgArray} showPlayButton={false} />
         </div>
       </div>
 
