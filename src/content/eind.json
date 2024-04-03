@@ -1,0 +1,12 @@
+{
+  "title": "Het eindproduct",
+  "body": {
+    "__html": [
+      "<p>Het concept waar wij uiteindelijk voor zijn gegaan is concept 1 het patiënten dashboard. Dit hebben wij gekozen na feedback vanuit de werkgevers en de therapeut waarmee wij hebben gezeten voor informatie tot betrekking van valrisico onder ouderen.</p>",
+      "<p> Voor onze fysiotherapeut was het van belang dat alles makkelijk leesbaar was en ook met grafieken werkte, aangezien deze snel en overzichtelijk een plaatje gaven aan de fysio en de klant. Hiermee kwam zij ook met een activiteit meter die kijkt naar de totale activiteit van een meting en kijkt of het genoeg is. Aangezien het aangeraden is voor ouderen om goed in beweging te blijven om hun valrisico te verlagen.</p>",
+      "<p>De grafiek in het dashboard meet alle gegevens die je krijgt met de sensor, de roll, de pitch en de yaw. Zo krijg je een volledig plaatje van hoe iemand loopt. De grafiek kijkt eerst naar de data per seconde om te kijken wat de extreme waarden zijn, hiervan berekend hij het verschil en classificeert hij dit in 0, 1 of 2 ook wel bekend als geen beweging, matige beweging en veel beweging. Dit zorgt ervoor dat de grafieken een duidelijk plaatje geven.</p>",
+      "<p>In het menu kan je de data uploaden, hierin neemt het de rauwe CSV data en schoont hij het op door alle witregels er uit te halen. Ook kan je hierbij een tijd geven, deze wordt dan weer doorgerekend zodat de grafiek op de juiste tijden komt te staan. </p>",
+      "<p>Ook een belangrijke features is de mogelijkheid om markers te kunnen zetten in de grafieken. Dit kan belangrijke momenten highlighten zodat de fysio en klant een beter plaatje kunnen krijgen op de effecten van bijvoorbeeld medicatie. </p>"
+    ]
+  }
+}
