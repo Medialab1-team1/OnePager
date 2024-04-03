@@ -14,7 +14,7 @@ export default function Dropdown() {
           aria-haspopup="true"
           onClick={() => [setIsOpen((prev) => !prev), console.log(isOpen)]}
         >
-          Options
+          Concepts
           <svg
             className="-mr-1 h-5 w-5 text-gray-400"
             viewBox="0 0 20 20"
@@ -38,10 +38,10 @@ export default function Dropdown() {
           aria-labelledby="menu-button"
           tabindex="-1"
         >
-          <div class="py-1" role="none">
+          <div className="py-1" role="none">
             <a
               href="#lokaal-dashboard"
-              className="text-gray-700 block px-4 py-2 text-sm"
+              className="text-gray-700 block px-4 py-2 text-sm my-3"
               role="menuitem"
               tabindex="-1"
               id="menu-item-0"
@@ -50,7 +50,7 @@ export default function Dropdown() {
             </a>
             <a
               href="#3d-model-loophoek"
-              className="text-gray-700 block px-4 py-2 text-sm"
+              className="text-gray-700 block px-4 py-2 text-sm my-3"
               role="menuitem"
               tabindex="-1"
               id="menu-item-1"
@@ -59,7 +59,7 @@ export default function Dropdown() {
             </a>
             <a
               href="#dashboard-2.0-(dossier)"
-              className="text-gray-700 block px-4 py-2 text-sm"
+              className="text-gray-700 block px-4 py-2 text-sm  my-3"
               role="menuitem"
               tabindex="-1"
               id="menu-item-2"
