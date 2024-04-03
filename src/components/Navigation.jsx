@@ -1,6 +1,5 @@
 import React from "react";
 import Dropdown from "./Dropdown";
-// import sluggify from "../utils/sluggify";
 
 export default function Navigation({ navigation }) {
   return (

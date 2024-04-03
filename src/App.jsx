@@ -21,9 +21,9 @@ export function App() {
 
   // build the navigation array of objects
   const navigation = [
-    { name: "Home", url: "/", children: [] },
-    { name: "Over ons", url: `/#${sluggify(about.title)}`, children: [] },
-    { name: "Eindproduct", url: `/#${sluggify(eind.title)}`, children: [] },
+    { name: "Home", url: "#", children: [] },
+    { name: "Over ons", url: `#${sluggify(about.title)}`, children: [] },
+    { name: "Eindproduct", url: `#${sluggify(eind.title)}`, children: [] },
   ];
 
   return (
