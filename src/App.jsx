@@ -17,27 +17,29 @@ import eind from "./content/eind.json";
 import "./index.css";
 
 export function App() {
-    const concepten = [concept1, concept2, concept3];
+  const concepten = [concept1, concept2, concept3];
 
-    // build the navigation array of objects
-    const navigation = [
-        {name: "Home", url: "/", children: []},
-        {name: "Over ons", url: `/#${sluggify(about.title)}`, children: []},
-    ];
+  // build the navigation array of objects
+  const navigation = [
+    { name: "Home", url: "/", children: [] },
+    { name: "Over ons", url: `/#${sluggify(about.title)}`, children: [] },
+    { name: "Eindproduct", url: `/#${sluggify(eind.title)}`, children: [] },
+  ];
 
-    return (
-        <>
-            <Hero/>
-            <Navigation navigation={navigation}/>
-            <main className="container">
-                {about && <About content={about}/>}
-                <section id="concepten" className="conceptenWrapper">
-                    {concepten &&
-                        concepten.map((concept) => <Concept content={concept}/>)}
-                </section>
-                <Eindproduct content={eind} />
-            </main>
-            <Footer/>
-        </>
-    );
+  return (
+    <>
+      <Hero />
+      <Navigation navigation={navigation} />
+      <main className="container">
+        {about && <About content={about} />}
+        {eind && <Eindproduct content={eind} />}
+        <section id="concepten" className="conceptenWrapper">
+          <h2>Concepten</h2>
+          {concepten &&
+            concepten.map((concept) => <Concept content={concept} />)}
+        </section>
+      </main>
+      <Footer />
+    </>
+  );
 }
