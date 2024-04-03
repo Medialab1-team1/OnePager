@@ -35,7 +35,7 @@ export function App() {
                     {concepten &&
                         concepten.map((concept) => <Concept content={concept}/>)}
                 </section>
-                (eind && <Eindproduct content={eind} />
+                <Eindproduct content={eind} />
             </main>
             <Footer/>
         </>
